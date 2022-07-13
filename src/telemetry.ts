@@ -1,4 +1,4 @@
-import appInsights from 'applicationinsights';
+import * as appInsights from 'applicationinsights';
 import fs from 'fs';
 import { InfluxDB, Point, WriteApi, ClientOptions } from "@influxdata/influxdb-client";
 import _ from 'lodash';
