@@ -95,7 +95,6 @@ class TelemetryAgent {
     if (this.events.length > 1e4) {
       this.flushToDisk();
     }
-
   }
 
   private flushToDisk() {

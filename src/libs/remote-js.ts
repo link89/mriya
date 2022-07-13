@@ -1,6 +1,6 @@
+import _ from 'lodash';
 import CDP from 'chrome-remote-interface';
 import { getLogger } from 'log4js';
-import _ from 'lodash';
 import { InfluxdbOptions } from './telemetry';
 
 const toExpression = (fn: Function, args: any[] = []) => {

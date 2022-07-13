@@ -1,6 +1,6 @@
-import * as telemetry from './telemetry';
 import _ from 'lodash';
 import Bluebird from 'bluebird';
+import * as telemetry from './telemetry';
 
 telemetry.init();
 
@@ -18,9 +18,9 @@ Object.assign(global, {
 declare global {
 
   const $remote: {
-    BlueBird: typeof Bluebird,
     _: typeof _,
     telemetry: typeof telemetry,
+    BlueBird: typeof Bluebird,
   }
 
-}
+};
