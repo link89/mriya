@@ -2,9 +2,15 @@
   "name": "mriya",
   "version": "0.0.1",
   "description": "A distributed Node.js load testing solution that allow you to use any established JavaScript libraries to simplify your job.",
-  "main": "index.js",
+  "main": "./dist/mriya.js",
+  "types": "./dist/mriya.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepack": "git clean -xdf -e node_modules && tsc"
   },
   "type": "module",
   "engines": {
