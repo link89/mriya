@@ -1,5 +1,5 @@
-import * as appInsights from 'applicationinsights';
-import * as fs from 'fs';
+import appInsights from 'applicationinsights';
+import fs from 'fs';
 import { InfluxDB, Point, WriteApi, ClientOptions } from "@influxdata/influxdb-client";
 import _ from 'lodash';
 import { nanoid } from 'nanoid';

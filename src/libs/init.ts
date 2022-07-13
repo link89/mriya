@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import Bluebird from 'bluebird';
-import * as telemetry from './telemetry';
+import * as telemetry from './telemetry.js';
 
 telemetry.init();
 

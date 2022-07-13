@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import CDP from 'chrome-remote-interface';
 import { getLogger } from 'log4js';
-import { InfluxdbOptions } from './telemetry';
+import { InfluxdbOptions } from './telemetry.js';
 
 const toExpression = (fn: Function, args: any[] = []) => {
   return `(${fn.toString()}).apply(this, ${JSON.stringify(args)})`;
