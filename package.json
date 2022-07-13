@@ -1,0 +1,19 @@
+{
+  "name": "mriya",
+  "version": "0.0.1",
+  "description": "A Node.js load testing solution that allow you to use any pre-established JavaScript libraries to simplify your job.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/link89/mriya.git"
+  },
+  "author": "weihong.xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/link89/mriya/issues"
+  },
+  "homepage": "https://github.com/link89/mriya#readme"
+}
